@@ -64,7 +64,6 @@ sub{
     line-height: 0;
 }
 table{
-    width: 1000px;
     margin: 12px auto 24px auto;
     float: center;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
@@ -87,7 +86,6 @@ th,td{
 .year{color: #fafafa; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
-table.navigation{width:1000px;}
 td.navigation{font-size:1.4em; white-space:nowrap; width:10%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 
 /* Sponsor Images */
@@ -159,7 +157,7 @@ td.footer{width:auto; text-align:center; vertical-align:middle;}
     display: none;
   }
 
-  @media screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
       display: none;
     }
@@ -170,7 +168,7 @@ td.footer{width:auto; text-align:center; vertical-align:middle;}
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     .topnav.responsive {
       position: relative;
     }
