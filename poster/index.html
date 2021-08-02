@@ -64,7 +64,7 @@
     <a href="speaker">Speakers</a>
     <a href="program">Program</a>
     <a href="abstract">Abstracts</a>
-    <a href="poster">Posters</a>
+    <a href="poster" class="active">Posters</a>
     <a href="directions">Direction</a>
     <a href="sponsor">Sponsors</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -75,24 +75,24 @@
     <br>
 
 
-    <script>
-        var btnContainer = document.getElementById("myTopnav");
-        
-        var btns = btnContainer.getElementsByClassName("topnav");
-        
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function() {
-            var current = document.getElementsByClassName("active");
+     <!-- <script>
+    var btnContainer = document.getElementById("myTopnav");
     
-            if (current.length > 0) {
-              current[0].className = current[0].className.replace(" active", "");
-            }
+    var btns = btnContainer.getElementsByClassName("topnav");
     
-            this.className += " active";
-          });
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+
+        if (current.length > 0) {
+          current[0].className = current[0].className.replace(" active", "");
         }
-        </script>
-    
+
+        this.className += " active";
+      });
+    }
+    </script> -->
+
 
     <script src="media_function.js"></script>
 </body>
