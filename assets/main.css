@@ -73,9 +73,11 @@ table{
 }
 th,td{
     text-align: center;
+    vertical-align: middle;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     border: 1px solid LightGray;
-    height: 50
+    height: 1.5em;
+    float: center;
 }
 
 /* Website Banner */
