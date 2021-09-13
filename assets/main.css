@@ -16,7 +16,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 
 *{
-    /* border:0; */
+    border:0;
     font:inherit;
     font-size:1em;
     margin:0;
@@ -78,6 +78,13 @@ th,td{
     border: 1px solid LightGray;
     height: 1.5em;
     float: center;
+}
+
+hr{
+  background-color: #f2a900;
+  border: 0;
+  height: 3px;
+  /* margin: 0 0 1.75em 0; */
 }
 
 /* Website Banner */
