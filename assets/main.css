@@ -16,7 +16,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 
 *{
-    border:0;
+    /* border:0; */
     font:inherit;
     font-size:1em;
     margin:0;
