@@ -129,6 +129,9 @@ td.sponsor img{width: 100%}
 table.footer{font-size:0.875em; margin: 72px auto 12px auto; width:333px;}
 td.footer{width:auto; text-align:center; vertical-align:middle;}
 
+/* Table */
+.txt_left { float:left; }
+
 /* My hacky way of making the site mobile-friendly */
 @media only screen and (max-width: 600px) {
     h2{font-size:3.00em;}
